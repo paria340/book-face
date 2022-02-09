@@ -15,12 +15,13 @@ function LoginForm(){
     }
     return(
         <>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='loginForm'>
+            <h3>Login to your account</h3>
             <label htmlFor="username">Enter your username: </label>
             <input type="text" id="username" onChange={handleChange}/>
 
-            {/* <label htmlFor="password"></label>
-            <input type="text" id="password"/> */}
+            <label htmlFor="password"></label>
+            <input type="text" id="password"/>
             <button type='submit'>Sign in</button>
         </form>
         </>

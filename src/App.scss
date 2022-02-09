@@ -1,0 +1,30 @@
+@import './styling/normalize';
+@import './styling/loginPage';
+  
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 20px;
+}
+  
+.nav li{
+    list-style: none;
+    a{
+        text-decoration: none; 
+    }
+}
+  
+header{
+    height: 70vh;
+    background-image: url("./images/ocean.jpg");
+}
+  
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h2{
+    text-align: center;
+}

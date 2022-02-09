@@ -12,6 +12,7 @@ function App() {
         <header>
           <Nav />
           <h1>Welcome to The Safe Place!</h1>
+          <h2>Where you are safe</h2>
         </header>
         <Routes> 
             <Route path="/*" element={<LoginForm />} />
